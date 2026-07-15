@@ -13,6 +13,9 @@
 - name: dec a11y
   color: "5319e7"
   description: Capítulo declaração de acessibilidade
+- name: testes usabilidade
+  color: "5319e7"
+  description: Capítulo testes de usabilidade
 - name: melhoria
   color: "fbca04"
   description: OK, mas pode melhorar
