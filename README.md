@@ -6,30 +6,26 @@ a11y_statement: "https://www.cm-sernancelhe.pt/ficha-tecnica/declaracao-de-acess
 owner: "CM de Sernancelhe"         # Entre as aspas escrever o nome do owner do website
 seal: "Ouro"                          # Entre as aspas escreve Bronze, Prata ou Ouro
 validity: "dd/mm/aaaa a dd/mm/aaaa" # Entre as aspas escreve data de início e data de fim no formato 31/12/1999 a 31/12/2000
-status: "Auditoria a decorrer" # Entre as aspas escreve uma das seguintes opções: "Auditoria a decorrer", "A aguardar correções da entidade", "Concluído" 
+status: "A aguardar correções da entidade" # Entre as aspas escreve uma das seguintes opções: "Auditoria a decorrer", "A aguardar correções da entidade", "Concluído" 
 ---
 
-# Relatório de auditoria
+# Munícipio de Sernancelhe
 
-Sítio Web: {{ page.website }}
+- Data de criação: 09/07/2026
+- URL: https://www.cm-sernancelhe.pt/
+- Propriedade: CM de Sernancelhe
+- Candidatura: Ouro
 
-- Data de criação: {{ page.date }}
-- URL: {{ page.uri }}
-- Propriedade: {{ page.owner }}
-- Candidatura: {{ page.seal }}
-- Validade do selo: {{ page.validity }}
-- Estado: {{ page.status }}
-
-## Relatório {{ page.website }}
+## Relatório de auditoria
 
 <p>O presente relatório resultou da auditoria da informação publicada na <a href="{{ page.a11y_statement }}">Declaração de Acessibilidade e Usabilidade</a>.</p>
 
-Consulte aqui a última atualização: [Relatório {{ page.website }}](report.html)
+Consulte aqui a última atualização: [Relatório Munícipio de Sernancelhe](report.html)
 
 <details>
   <summary>Histórico de atualizações</summary>
   <ul aria-label="lista de relatórios já efetuados">
-    <li><a href="ddmmaaaa_report.html">(dd/mm/aaaa). Relatório {{ page.website }}</a></li>
+    <li><a href="23072026_report.html">(23/07/2026). Relatório {{ page.website }}</a></li>
   </ul>
 </details>
 
